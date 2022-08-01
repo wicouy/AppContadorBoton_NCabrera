@@ -1,0 +1,43 @@
+* {
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px;
+
+}
+
+#header {
+    background-color: rgb(34, 44, 187);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    align-items: center;
+    color: white;
+}
+#logo {
+    width: 5%;
+    height: auto;
+     }
+
+#elMensaje{
+    text-align: center;
+    border: 1px;
+    color: red;
+    }
+
+#BtnContadorPadre{
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+#BtnContadorHijo{
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);    
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px;
+}
+#txtContadorHijo:read-only{
+    text-align: center;
+}
